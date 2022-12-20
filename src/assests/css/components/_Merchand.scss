@@ -1,0 +1,80 @@
+.Merchand {
+    border-bottom: 2px solid #fff;
+
+    h3 {
+        color: #fff;
+        font-size: 50px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .btn {
+        color: #fff;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: end;
+    }
+
+    .title {
+        color: #fff;
+        margin: 10px 0px 0px 0px;
+        text-align: start;
+        padding: 0px 10px;
+
+        span {
+            position: absolute;
+            right: 20px;
+        }
+    }
+
+    .desc {
+        color: #fff;
+        font-size: 12px;
+        width: 80%;
+        padding: 10px;
+        text-align: start;
+    }
+
+    .productSlider {
+        .slider-border {
+            width: 70%;
+            padding-top: 40px;
+        }
+    }
+
+    .latest {
+        h1 {
+            color: #fff;
+            font-size: 32px;
+        }
+    }
+
+}
+
+@media (max-width:550px) {
+    .Merchand {
+
+        .productSlider {
+            .slider-border {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .btn {
+            font-size: 16px;
+        }
+    }
+
+    .legacy {
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+}

@@ -1,0 +1,35 @@
+.about{
+    height: 100vh;
+    padding: 100px;
+    .main-heading{
+        h1{
+            color: #fff;
+            font-size: 30px;
+            text-align: start;
+        }
+        p{
+            color: #fff;
+            font-size: 16px;
+            text-align: start;
+
+        }
+        .btn{
+            background: transparent;
+            border: 1px solid red;
+            color: red;
+            transition: all 0.7s ease-in-out;
+           display: flex;
+           justify-content: center;
+           width: 30%;
+           align-items: center;
+            &:hover{
+                background-color: red;
+                color: #fff;
+            }
+        }
+    }
+}
+.card{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}

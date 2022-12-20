@@ -1,0 +1,25 @@
+.custom-logo{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px;
+    height: 490px;
+    padding-top: 100px;
+    overflow: hidden;
+    border: 2px solid red;
+    &:hover{
+        overflow: hidden;
+        height: 490px;
+        transition: all .5s ease-in-out;
+        p{
+            display: block;
+            transition: all .3s ease-out;
+        padding-top: 0px 30px;
+
+        }
+        
+    }
+    p{
+        display: none;
+        padding: 20px 30px;
+    }
+
+}
