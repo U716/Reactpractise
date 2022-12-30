@@ -8,7 +8,7 @@ const Detail = () => {
     const [detail, setDetail] = useState([])
     const {state} = useLocation();
     // console.log(state,"STATE CHECKING");
-    const fetchData = async () => {
+    const fetchData = async  () => {
         const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${state.id}`)
       if (!response.ok) {
         throw new Error('Data coud not be fetched!')

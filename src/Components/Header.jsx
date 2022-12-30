@@ -8,15 +8,7 @@ export default function Header() {
     <>
         <Container fluid>
           <Row>
-            <Col xs={12} sm={12} xl={5} lg={5} md={5} className="p-0">
-            <nav className="navbar bg-dark">
-              <div className="container-fluid">
-                <a className="navbar-brand text-light w-25 h-25" href="#">
-                  <NavLink to="/home" className='text-decoration-none text-light'>Testing World</NavLink>
-                </a>
-              </div>
-            </nav>
-          </Col>
+        
           <Col xs={12} sm={12} xl={7} lg={7} md={7} className="p-0">
             <nav className="navbar navbar-expand-lg bg-dark">
               <div className="container-fluid">
@@ -42,6 +34,28 @@ export default function Header() {
               </div>
             </nav>
             </Col>
+            <Col xs={12} sm={12} xl={5} lg={5} md={5} className="p-0">
+            <nav className="navbar navbar-expand-lg bg-dark">
+          <div className="container">
+            <NavLink className="navbar-brand" to={'/sign-in'}>
+            </NavLink>
+            <div className="" id="navbarTogglerDemo02">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <NavLink className="text-light nav-link" to={'/sign-in'}>
+                    Login
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="text-light nav-link" to={'/sign-up'}>
+                    Sign up
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+          </Col>
           </Row>
       </Container>
 

@@ -4,6 +4,7 @@ import Heading from '../Components/Heading';
 
 
 
+
 export default function Services() {
   return (
     <>
@@ -42,6 +43,8 @@ export default function Services() {
         </section>
 
         {/* tabs section  */}
+
+
 
       </div>
     </>
